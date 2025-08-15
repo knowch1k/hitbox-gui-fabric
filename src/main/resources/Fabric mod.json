@@ -1,1 +1,25 @@
-
+{
+    "schemaVersion": 1,
+    "id": "hitboxgui",
+    "version": "1.0.0",
+    "name": "Hitbox GUI Mod",
+    "description": "Example Fabric mod for hitbox GUI",
+    "authors": [
+        "YourName"
+    ],
+    "contact": {
+        "sources": "https://github.com/yourname/hitboxgui"
+    },
+    "license": "MIT",
+    "environment": "*",
+    "entrypoints": {
+        "client": [
+            "com.example.hitboxgui.HitboxGuiMod"
+        ]
+    },
+    "depends": {
+        "fabricloader": ">=0.17.2",
+        "minecraft": "1.21.1",
+        "java": ">=17"
+    }
+}
